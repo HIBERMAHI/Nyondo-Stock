@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    width: 600px;
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 2fr;
+}
+.box{
+    background-color: rgb(173, 2, 36);
+    padding: 20px;
+    margin: 1px;
+}
+.flex-container{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 117, 117);
+}
+.boxe{
+    width: 100px;
+    background-color: rgb(180, 118, 57);
+}
+.boxe-1{
+    background-color: blueviolet;
+    order: 4;
+}
+.boxe-2{
+    background-color: chartreuse;
+    order: 3;
+}
+.boxe-3{
+    background-color: darkolivegreen;
+    order: 2;
+}
+.boxe-4{
+    background-color: coral;
+    order: 1;
+}
+.container{
+    background-color: burlywood;
+    height: 100vh;
+    display: flex;
+}
