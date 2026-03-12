@@ -106,9 +106,9 @@ form{
     margin: 10px  50px;
 }
 .square{
-    width: 200px;
-    height: 100px;
-    border-radius:100px;
+    width: 90px;
+    height: 45px;
+    border-radius:45px;
     border: 1px solid rgb(165, 161, 161);
     margin-right: 10px;
     background-color: rgb(205, 201, 201);
