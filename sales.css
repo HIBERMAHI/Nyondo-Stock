@@ -4,7 +4,7 @@ body{
 }
 .container{
 display: flex;
-height: 100vh;
+height: auto;
 width: 100%;
 }
 form{
@@ -34,6 +34,9 @@ form{
     margin-left: 5px;
     
 }
+.input-section input{
+    height: 2rem;
+}
 .select-container{
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +50,12 @@ form{
     margin-left: 5px;
     justify-content: space-between;
 }
+.select-label input{
+    height: 2rem;
+}
+.select{
+    height: 2.3rem;
+}
 .item-container{
     display: flex;
     flex-wrap: wrap;
@@ -57,6 +66,9 @@ form{
     flex-direction: column;
     flex-basis: 30%;
     margin-left: 10px;
+}
+.item-select input{
+    height: 2rem;
 }
 .butt{
     display: flex;
@@ -100,15 +112,16 @@ form{
 .title{
     text-align: center;
     margin-right: 60px;
+    font-style: italic;
 }
 .eleme{
     display: flex;
     margin: 10px  50px;
 }
 .square{
-    width: 90px;
-    height: 45px;
-    border-radius:45px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
     border: 1px solid rgb(165, 161, 161);
     margin-right: 10px;
     background-color: rgb(205, 201, 201);

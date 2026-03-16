@@ -10,7 +10,7 @@
     <div class="container">
       <div class="sidebar">
         <div class="eleme"  >
-          <span class="square" ></span>
+          <img class="square"  src="zang.jpg" alt="picture">
           <p>MAGEZI HIBER: Project manager</p>
         </div>
         <div class="boa">
@@ -37,8 +37,8 @@
               </div>
               <div class="input-section">
                 <label for="salesperson">Salesperson</label>
-                <select>
-                  <option value="" disabled select>Slesrepresentative</option>
+                <select class="select" >
+                  <option value="" disabled selected>Salesrepresentative</option>
                   <option value="1">hiber</option>
                   <option value="2">mag</option>
                 </select>
@@ -52,7 +52,7 @@
               </div>
               <div class="select-label">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter email" />
+                <input type="email" id="email" placeholder="Enter email" />
               </div>
               <div class="select-label">
                 <label for="phone">Phone Number</label>
@@ -60,8 +60,8 @@
               </div>
               <div class="select-label">
                 <label for="type">Type</label>
-                <select>
-                  <option value="" disabled select>Select customer type</option>
+                <select class="select"  >
+                  <option value="" disabled selected>Select customer type</option>
                   <option value="1">food</option>
                   <option value="2">sausage</option>
                 </select>
@@ -82,8 +82,8 @@
                 <input type="number" id="unitp" />
               </div>
               <div class="item-select" >
-                <label for="id">Pdt Id</label>
-                <input type="text" id="id" placeholder="pdt ID" />
+                <label for="pd">Product ID</label>
+                <input type="text" id="pd" placeholder="pdt ID" />
               </div>
               <div class="item-select" >
                 <label for="qty">Quantity</label>
@@ -95,8 +95,8 @@
               </div>
             </div>
             <div class="butt" >
-              <button  class="can">Cancel</button>
-              <button class="submit" >Submit</button>
+              <button  class="can" type="button"  >Cancel</button>
+              <button class="submit"  type="button" >Submit</button>
             </div>
           </form>
         </section>
